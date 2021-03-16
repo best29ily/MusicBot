@@ -16,7 +16,7 @@ from helpers.errors import DurationLimitError
     & ~ filters.edited
 )
 async def play_(client: Client, message: Message):
-    await message.reply_text("**Hêllẞø†:** Sorry! I can only be used in groups. \nTry again in a group.")
+    await message.reply_text("ᴜɴᴄʟᴇ ᴍᴜᴛʜᴜ Sorry! I can only be used in groups. \nTry again in a group.")
 
 
 @Client.on_message(
@@ -73,7 +73,7 @@ async def play(client: Client, message_: Message):
 
     if is_playing:
         position = await sira.add(message_.chat.id, file_path)
-        await res.edit_text(f"**Hêllẞø†:** #️⃣ Queued at position {position}.")
+        await res.edit_text(f"ᴜɴᴄʟᴇ ᴍᴜᴛʜᴜ #️⃣ Queued at position {position}.")
     else:
-        await res.edit_text("**Hêllẞø†:** ▶️ Playing...")
+        await res.edit_text("ᴜɴᴄʟᴇ ᴍᴜᴛʜᴜ ▶️ Playing...")
         tgcalls.pytgcalls.join_group_call(message_.chat.id, file_path, 48000)
