@@ -27,8 +27,8 @@
         "value": ""
       },
       "BOT_NAME": {
-        "description": "Your Bot Name. By default it is Hêllẞø†",
-        "value": "Hêllẞø†"
+        "description": "Your Bot Name. By default it is ᴜɴᴄʟᴇ ᴍᴜᴛʜᴜ",
+        "value": "ᴜɴᴄʟᴇ ᴍᴜᴛʜᴜ"
       },
       "SUDO_USERS": {
         "description": "List of ID of those who can pause, stop and clear queue,separated by space.",
